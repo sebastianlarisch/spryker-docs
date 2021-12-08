@@ -17,7 +17,7 @@ related:
     link: docs/scos/dev/glue-api-guides/page.version/searching-the-product-catalog.html
 ---
 
-The [Navigation](/docs/scos/user/features/{{page.version}}/navigation-feature-overview.html)  feature enables back-end developers to create navigation elements for Storefront. The navigation elements help shop users to navigate the shop and locate the necessary products and other content. Navigation elements can be linked to CMS pages, categories, as well as internal and external links. 
+The [Navigation](/docs/scos/user/features/{{page.version}}/navigation-feature-overview.html)  feature enables backend developers to create navigation elements for Storefront. The navigation elements help shop users to navigate the shop and locate the necessary products and other content. Navigation elements can be linked to CMS pages, categories, as well as internal and external links. 
         
 A navigation element with its child nodes forms a navigation tree. You can only retrieve the entire navigation tree but not a navigation element.
 

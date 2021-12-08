@@ -35,10 +35,10 @@ To create a new shipment method:
     1. Select the carrier company for which you want to add the shipment method to in the Carrier drop-down list. Only one value can be selected.
     2. Enter a name for the shipment method: the name that you enter will be visible in the Online Stor.
     3. Define the prices.
-    4. Select the **Availability Plugin**: you can select one of the availability plugins that is implemented in the back-end. The purpose of this plugin is to check if the shipment method is available for the customer and can be listed among the available shipment methods. If it’s not available, the shipment method won’t be shown to the customer.
+    4. Select the **Availability Plugin**: you can select one of the availability plugins that is implemented in the backend. The purpose of this plugin is to check if the shipment method is available for the customer and can be listed among the available shipment methods. If it’s not available, the shipment method won’t be shown to the customer.
     5. Select the **Price Plugin**: you can either provide a static price for your shipment method or select a configured price plugin.
     Regardless if you have multi-currency prices with multiple price modes or just one simple static price (older versions), the price plugin has priority over those prices and allows you to customize and apply logic over delivery price calculation.
-    6. Select the **Delivery Time Plugin**: you can select one of the delivery time plugins that is implemented in the back-end. The purpose of this plugin is to calculate the estimated time for the delivery.
+    6. Select the **Delivery Time Plugin**: you can select one of the delivery time plugins that is implemented in the backend. The purpose of this plugin is to calculate the estimated time for the delivery.
     7. Activate the shipment method by selecting the Is active checkbox.
     8. Select the tax set from the drop-down list. The values are taken from the **Taxes > Tax Sets** section.
 3. Once done, click **Add**.  	

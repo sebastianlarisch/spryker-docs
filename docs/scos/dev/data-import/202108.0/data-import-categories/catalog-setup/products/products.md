@@ -11,7 +11,7 @@ redirect_from:
   - /docs/en/products-import
 ---
 
-The **Products** category contains all products-related data you need to manage and sell products in your online store. We have structured this section according to the following .csv files that you will have to use to import the data:
+The **Products** category contains all products-related data you need to manage and sell products in your online store. We have structured this section according to the following CSV files that you will have to use to import the data:
 
 * [product_attribute_key.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/catalog-setup/products/file-details-product-attribute-key.csv.html): allows you to define whether specific attributes should be considered super attributes.
 * [product_management_attribute.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/catalog-setup/products/file-details-product-management-attribute.csv.html): allows you to define additional product attributes, including type of attribute (text or number), as well as set custom and multiple values. 
@@ -20,7 +20,7 @@ The **Products** category contains all products-related data you need to manage 
 * [product_concrete.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/catalog-setup/products/file-details-product-concrete.csv.html): allows you to import concrete product information, including their descriptions, attributes' values, searchability, relations to abstract products, and more information.
 * [product_image.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/catalog-setup/products/file-details-product-image.csv.html): allows you to import the images of the concrete products, local ones, as well as the ones via URLs.
 
-The table below provides details on Products data importers, their purpose, .csv files, dependencies, and other details. Each data importer contains links to .csv files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
+The table below provides details on Products data importers, their purpose, CSV files, dependencies, and other details. Each data importer contains links to CSV files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
 
 | Data Importer | Purpose | Console Command| File(s) | Dependencies |
 | --- | --- | --- | --- |--- |

@@ -237,7 +237,7 @@ To display only active records in search results, use `\Spryker\Client\SearchEla
 
 #### Filtering by "is active" within a given date range
 
-To display only records which are active within a given date range, use `\Spryker\Client\SearchElasticsearch\Plugin\QueryExpander\IsActiveInDateRangeQueryExpanderPlugin`. Add this plugin to expander plugin stack, for example, `\Pyz\Client\Catalog\CatalogDependencyProvider::createSuggestionQueryExpanderPlugins`. You also have to export `active-from` and  `active-to` by your search collector. The value is any valid Elasticsearch Date datatype value. For more information, see [Elasticsearch reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/date.html#date).
+To display only records which are active within a given date range, use `\Spryker\Client\SearchElasticsearch\Plugin\QueryExpander\IsActiveInDateRangeQueryExpanderPlugin`. Add this plugin to expander plugin stack, for example, `\Pyz\Client\Catalog\CatalogDependencyProvider::createSuggestionQueryExpanderPlugins`. You also have to export `active-from` and  `active-to` by your search collector. The value is any valid Elasticsearch Date data type value. For more information, see [Elasticsearch reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/date.html#date).
 
 #### Faceted navigation and filters
 

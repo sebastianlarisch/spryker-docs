@@ -44,16 +44,16 @@ We will use the same technique for the `fk_product` and `fk_product_abstract` fi
 
 {% info_block infoBox "Info" %}
 
-To identify the data for your import file, you can also check out the .csv files of individual data importers listed in [About Data Import Categories](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/about-data-import-categories.html).
+To identify the data for your import file, you can also check out the CSV files of individual data importers listed in [About Data Import Categories](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/about-data-import-categories.html).
 
 {% endinfo_block %}
 
 Now that you know what data your import file should include, you can proceed with the first step of creating a data importer: creating an import file.
 
 ## Create an Import File
-Since only .csv format is supported for import out of the box, we will start with creating a .csv file in any preferred editor.
+Since only .csv format is supported for import out of the box, we will start with creating a CSV file in any preferred editor.
 
-Your .csv file for the product images import will contain the following header columns:
+Your CSV file for the product images import will contain the following header columns:
 
 * image_set_name
 * external_url_large
@@ -204,7 +204,7 @@ There are a lot of options that you can set for an import. If you need to debug 
 
 {% info_block infoBox "Info" %}
 
-This will then only execute the data set at potion 43 of your import file.
+This will then only execute the dataset at potion 43 of your import file.
 
 {% endinfo_block %}
 

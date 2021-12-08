@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_slot_block.csv** file to configure [CMS Slot Block](/docs/scos/user/features/{{page.version}}/cms-feature-overview/templates-and-slots-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -41,4 +41,4 @@ A template and an example of the *cms_slot_block.csv*  file can be downloaded he
 | File | Description |
 | --- | --- |
 | [cms_slot_block.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+cms_slot_block.csv) | CMS Slot Block .csv template file (empty content, contains headers only). |
-| [cms_slot_block.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_slot_block.csv) | CMS Slot Block .csv file containing a Demo Shop data sample. |
+| [cms_slot_block.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_slot_block.csv) | CMS Slot Block CSV file containing a Demo Shop data sample. |

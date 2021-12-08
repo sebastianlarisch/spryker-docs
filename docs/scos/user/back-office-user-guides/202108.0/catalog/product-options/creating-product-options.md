@@ -69,7 +69,7 @@ The following table describes the attributes you enter and select while creating
 | Option name | Name of your option. |
 
 **Tips & tricks**
-<br>While creating a product option, if you want to remove some product from the selected, clear check boxes next to the products you selected or click **Deselect all on the page** (this will remove all products from the to-be-assigned list you selected on this page).
+<br>While creating a product option, if you want to remove some product from the selected, clear checkboxes next to the products you selected or click **Deselect all on the page** (this will remove all products from the to-be-assigned list you selected on this page).
 
 You can switch between **All products** and **Products to be assigned** view by selecting the respective options on the top of the products table.
 ![image](https://spryker.s3.eu-central-1.amazonaws.com/docs/User+Guides/Back+Office+User+Guides/Products/Products/Product+Options/Creating+a+product+option/product-to-be-assigned-tab.png)

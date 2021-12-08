@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_slot.csv** file to configure [CMS Slot](/docs/scos/user/features/{{page.version}}/cms-feature-overview/templates-and-slots-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **glossary.csv** file to configure [Customer](/docs/scos/user/back-office-user-guides/{{page.version}}/administration/glossary/managing-glossary.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | File Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -32,4 +32,4 @@ A template and an example of the *glossary.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [glossary.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+glossary.csv) | Glossary .csv template file (empty content, contains headers only). |
-| [glossary.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/glossary.csv) | Glossary .csv file containing a Demo Shop data sample. |
+| [glossary.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/glossary.csv) | Glossary CSV file containing a Demo Shop data sample. |

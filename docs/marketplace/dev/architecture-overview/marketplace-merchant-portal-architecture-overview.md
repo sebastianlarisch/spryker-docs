@@ -12,7 +12,7 @@ The following diagrams outline the relation between Zed, MerchantPortal, Back Of
 ## Zed and MerchantPortal
 Zed is an application layer at Spryker (next to Yves, Glue, Client, Service, and Shared). 
 
-This layer serves as a base for some back-end-oriented applications such as MerchantPortal, Back Office, Gateway, Console (DataImport, Pub&Sync). That means that the MerchantPortal shares the codebase with these applications, and the internal Zed infrastructure is available within the MerchantPortal runtime. It allows faster development and easier customizations of your Spryker Marketplace project. 
+This layer serves as a base for some backend-oriented applications such as MerchantPortal, Back Office, Gateway, Console (DataImport, Pub&Sync). That means that the MerchantPortal shares the codebase with these applications, and the internal Zed infrastructure is available within the MerchantPortal runtime. It allows faster development and easier customizations of your Spryker Marketplace project. 
 
 ## Security
 While addressing different concerns, both MerchantPortal and Back Office have direct access to the main database where all the application transactions are stored.

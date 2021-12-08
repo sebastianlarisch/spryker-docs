@@ -21,7 +21,7 @@ The Data Export is currently a BETA feature.
 
 {% endinfo_block %}
 
-To quickly populate an external system like ERP or OMS with data from your Spryker shop, you can export it as .csv files from the Spryker shop and then import them into the external system.
+To quickly populate an external system like ERP or OMS with data from your Spryker shop, you can export it as CSV files from the Spryker shop and then import them into the external system.
 
 For now, you can export only order data, which includes data on:
 
@@ -39,7 +39,7 @@ To export the order data, you need to:
 
 1. Make sure you have the[ Sales Data Export feature installed](/docs/scos/dev/feature-integration-guides/{{page.version}}/sales-data-export-feature-integration.html) for your project.
 2. Specify necessary configurations in the .yml export configuration file residing in `./data/export/config/`. See [.yml Export Configuration File](#yml-export-configuration-file) for details on the .yml export config file structure and configuration options.
-3. Run `console data:export --config file-name.yml`, where `file-name.yml` is the name of the .yml export configuration file. The command creates export .csv files in `./data/export/`folder for each *data_entity* of the .yml file. For each store specified in the .yml file, a separate file is created. See [Structure of the .yml Export Configuration File](/docs/scos/dev/data-export/{{page.version}}/data-export.html#structure) for an example of how the export works.
+3. Run `console data:export --config file-name.yml`, where `file-name.yml` is the name of the .yml export configuration file. The command creates export CSV files in `./data/export/`folder for each *data_entity* of the .yml file. For each store specified in the .yml file, a separate file is created. See [Structure of the .yml Export Configuration File](/docs/scos/dev/data-export/{{page.version}}/data-export.html#structure) for an example of how the export works.
 
 {% info_block infoBox "Multi-store support" %}
 
@@ -111,7 +111,7 @@ Type of content to export is defined in section *actions* by *data_entity* and
 
 Check out the default .yml export configuration file [order_export_config.yml](https://github.com/spryker-shop/suite/blob/master/data/export/production/order_export_config.yml) for example. It’s configuration presupposes batch export of the three data entities: *order*, *order-item*, *order-expense.*
 
-When running the command for data export with this file,` console data:export --config order_export_config.yml`, exported .csv files are created in `data/export`. For each data entity and store, a separate file is generated, namely:
+When running the command for data export with this file,` console data:export --config order_export_config.yml`, exported CSV files are created in `data/export`. For each data entity and store, a separate file is generated, namely:
 
 * order-expenses_AT.csv
 * order-expenses_DE.csv
@@ -223,9 +223,9 @@ After running the command with the changed filter criteria for *order-expense*, 
 
 ## Overwriting Existing .csv Files Upon Repeated Command Run
 
-When exporting data, the newly generated .csv files overwrite the existing ones. Currently, this behavior is not configurable.
+When exporting data, the newly generated CSV files overwrite the existing ones. Currently, this behavior is not configurable.
 
-If you wish to generate new .csv files without overwriting eventual existing ones, you may use a *{timestamp}* tag in the name of the file to be generated. For example, if you use the default structure of the .yml export configuration file, upon repeated launch of the `console data:export --config file-name.yml`, the already existing export .csv files will be generated with different file names according to the* {timestamp}* on the moment of its creation, and therefore will not be overwritten.
+If you wish to generate new CSV files without overwriting eventual existing ones, you may use a *{timestamp}* tag in the name of the file to be generated. For example, if you use the default structure of the .yml export configuration file, upon repeated launch of the `console data:export --config file-name.yml`, the already existing export CSV files will be generated with different file names according to the* {timestamp}* on the moment of its creation, and therefore will not be overwritten.
 And vice versa: if you want to overwrite the existing files, remove *{timestamp}* from the *destination* parameter of the .yml file for the necessary *data_entity* items, for example:
 
 Initial file:

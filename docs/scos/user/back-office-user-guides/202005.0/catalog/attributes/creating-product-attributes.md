@@ -30,7 +30,7 @@ Keep in mind that it should not contain any special symbols.
 {% endinfo_block %}
     2. In the **Input type** drop-down list, select the type of data input.
     3. Select the **Super attribute** checkbox to create a super attribute OR do not select the checkbox if you are creating a product descriptive attribute.
-    When the check box is selected, the **Allow input any value other than predefined** option becomes disabled as a super attribute always uses predefined values.
+    When the checkbox is selected, the **Allow input any value other than predefined** option becomes disabled as a super attribute always uses predefined values.
     4. In the **Predefined Values** field, add from one to many values by typing them and clicking **Enter** after each.
     5. Select the **Allow input any value other than predefined ones** checkbox if you want to allow adding  values different than the predefined ones.
 3. Click **Save**.

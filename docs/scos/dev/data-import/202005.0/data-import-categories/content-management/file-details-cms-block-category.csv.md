@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_block_category.csv** file to configure CMS Block Category information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -33,4 +33,4 @@ A template and an example of the *cms_block_category.csv*  file can be downloade
 | File | Description |
 | --- | --- |
 | [cms_block_category.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block_category_template.csv) | CMS Block Category .csv template file (empty content, contains headers only). |
-| [cms_block_category.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block_category.csv) | PCMS Block Category .csv file containing a Demo Shop data sample. |
+| [cms_block_category.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block_category.csv) | PCMS Block Category CSV file containing a Demo Shop data sample. |

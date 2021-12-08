@@ -66,4 +66,4 @@ It will make sense to define additional tax rules when creating additional count
 {% endinfo_block %}
 
 
-After these changes are performed, your buyers will be able to select the countries configured in the checkout dialogue.
+After these changes are performed, your buyers will be able to select the countries configured in the checkout dialog.

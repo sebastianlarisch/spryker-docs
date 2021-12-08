@@ -67,7 +67,7 @@ Then `spy_product_abstract_store` will have the following rows as association de
 |AP2  | S2 |
 |  AP2|S3  |
 
-This example defines the data set as all abstract products are accessible in all of your stores. If you do not define or remove an association between AP1 and S2, then your AP1 abstract product and its concrete products will not be available in S2.
+This example defines the dataset as all abstract products are accessible in all of your stores. If you do not define or remove an association between AP1 and S2, then your AP1 abstract product and its concrete products will not be available in S2.
 
 **IMPORTANT**: even if you have 1 store, the associations between abstract products and stores have to be defined.
 

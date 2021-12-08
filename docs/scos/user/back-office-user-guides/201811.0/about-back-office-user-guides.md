@@ -27,7 +27,7 @@ If you are only interested in a B2C scenario, feel free to ignore all content fl
 The information is divided into concepts, tasks, and references.
 
 * In concept, you will find the general information about a specific Back Office feature.
-* In the task, you find the steps you need to perform to make the data setup for a particular entity.
+* In the task, you find the steps you need to perform to make the datasetup for a particular entity.
 * In the reference topic, you will find all the information about the fields you see on the screen, specific behavior (if any) of an entity, and any other referential details you need to succeed in the task.
 
 In the concepts for each Back Office section, you will find a standardized flow of events for a person who uses this specific section. This will help you to understand how different departments interact with each other in order to make a setup in Spyker Back Office.

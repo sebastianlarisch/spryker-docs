@@ -176,7 +176,7 @@ Speed up the frequent import of product data.
 Optimize error handling.
 Provide more autonomy to business users managing product data updates.
 
-The new **combined product data import with a single file** feature allows to import at once the following product data sets: Product Abstract Store, Product Abstract, Product Concrete, Product Stock, Product Group, Product Prices, Product Images, to one or to multiple stores.
+The new **combined product data import with a single file** feature allows to import at once the following product datasets: Product Abstract Store, Product Abstract, Product Concrete, Product Stock, Product Group, Product Prices, Product Images, to one or to multiple stores.
 
 ![image](https://spryker.s3.eu-central-1.amazonaws.com/docs/About/Releases/Release+notes/Release+Nots+202009.0/image7.png)
 

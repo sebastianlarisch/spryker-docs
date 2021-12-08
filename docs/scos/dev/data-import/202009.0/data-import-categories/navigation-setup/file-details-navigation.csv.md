@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **navigation.csv** file to configure [Navigation](/docs/scos/user/features/{{page.version}}/navigation-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -31,5 +31,5 @@ A template and an example of the *navigation.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [navigation.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/Template+navigation.csv) | Navigation .csv template file (empty content, contains headers only). |
-| [navigation.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/navigation.csv) | Navigation .csv file containing a Demo Shop data sample. |
+| [navigation.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/navigation.csv) | Navigation CSV file containing a Demo Shop data sample. |
 

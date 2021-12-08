@@ -92,7 +92,7 @@ action:
   where:
 
 * `data_entity` represents the name of your data importer.
-* `source` describes the path to your .csv file with data to import. If the source is not specified, then .csv file defined in the module’s `Config` will be used.
+* `source` describes the path to your CSV file with data to import. If the source is not specified, then CSV file defined in the module’s `Config` will be used.
 
 Then you can run the `./vendor/bin/console data:import --config=path/to/config.yml` command to import all the data from the config.yml file. See[ Importing Data](/docs/scos/dev/data-import/{{page.version}}/importing-data-with-a-configuration-file.html) for more details about this and other import commands you can use.
 
@@ -155,7 +155,7 @@ To use a module-based importer, add it to the plugin stack. See the example belo
 
 All those plugins should implement `Spryker\Zed\DataImport\Dependency\Plugin\DataImportPluginInterface`.
 
-By default, .csv files with data are stored under the module directory in a data folder. It's possible to place them on the project level by extending the `config.yml` file with the required source for the data importer. See the example below:
+By default, CSV files with data are stored under the module directory in a data folder. It's possible to place them on the project level by extending the `config.yml` file with the required source for the data importer. See the example below:
 
 ```
 action:

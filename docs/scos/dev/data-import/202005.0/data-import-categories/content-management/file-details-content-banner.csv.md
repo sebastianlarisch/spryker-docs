@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **content_banner.csv** file to configure [Content Banner](/docs/scos/user/features/{{page.version}}/content-items-feature-overview.html#content-item) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -43,5 +43,5 @@ A template and an example of the *content_banner.csv*  file can be downloaded he
 | File | Description |
 | --- | --- |
 | [content_banner.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+content_banner.csv) | Content Banner .csv template file (empty content, contains headers only). |
-| [content_banner.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/content_banner.csv) | Content Banner .csv file containing a Demo Shop data sample. |
+| [content_banner.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/content_banner.csv) | Content Banner CSV file containing a Demo Shop data sample. |
 

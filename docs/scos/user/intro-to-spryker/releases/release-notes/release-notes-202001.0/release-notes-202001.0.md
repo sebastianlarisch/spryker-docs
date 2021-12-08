@@ -208,7 +208,7 @@ Even though Elasticsearch is one of the most powerful search engines available, 
 ### By-pass KV-storage
 Separated Backend and Frontend in Spryker communicate over denormalized distributed datasets with underlying Publish & Synchronize mechanism. This powerful data distribution infrastructure emits data to Storage and Search and enables Frontends’ consumers to reach data without hitting relational DB with the increased performance. Though in some cases (typically B2B), amounts of data are large, and Storage (Redis by default) growth is not justified, especially when a number of customers and RPM is not high.
 
-With this release Publish & Synchronize enables direct access to denormalized data sets stored in a relational DB. Storage consumption could be decreased dramatically with a simple configuration.
+With this release Publish & Synchronize enables direct access to denormalized datases stored in a relational DB. Storage consumption could be decreased dramatically with a simple configuration.
 
 To get most of this feature, we recommend to set up master-slave replication and point the Storage to the slave instance, avoiding additional load on the master instance.
 

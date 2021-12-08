@@ -162,7 +162,7 @@ The interface provides the following helper methods:
 
 #### Generic Rest Response
 
-Controllers of each module must return their responses to Glue as instances of the `\Spryker\Glue\GlueApplication\Rest\JsonApi\RestResponseInterface` objects with all data set.
+Controllers of each module must return their responses to Glue as instances of the `\Spryker\Glue\GlueApplication\Rest\JsonApi\RestResponseInterface` objects with all dataset.
 
 The interface provides the following helper methods:
 

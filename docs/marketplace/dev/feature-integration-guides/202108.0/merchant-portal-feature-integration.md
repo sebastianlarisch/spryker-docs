@@ -42,7 +42,7 @@ For production
 $ yarn mp:build:production
 ```
 
-## Installing back end
+## Installing backend
 
 Install the needed packages for the Merchant Portal with dependencies, see the available list [here](https://github.com/spryker/?q=merchant-portal-gui)
 

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **discount.csv** file to configure [Discount](/docs/scos/user/features/{{page.version}}/promotions-discounts-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -45,4 +45,4 @@ A template and an example of the *discount.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [discount.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/Template+discount.csv) | Discount .csv template file (empty content, contains headers only). |
-| [discount.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/discount.csv) | Discount .csv file containing a Demo Shop data sample. |
+| [discount.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/discount.csv) | Discount CSV file containing a Demo Shop data sample. |

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **shipment.csv** file to configure [Shipment](/docs/scos/user/features/{{page.version}}/shipment-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -32,4 +32,4 @@ A template and an example of the *shipment.csv* file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [shipment.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+shipment.csv) | Shipment .csv template file (empty content, contains headers only). |
-| [shipment.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment.csv) | Shipment .csv file containing a Demo Shop data sample. |
+| [shipment.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment.csv) | Shipment CSV file containing a Demo Shop data sample. |

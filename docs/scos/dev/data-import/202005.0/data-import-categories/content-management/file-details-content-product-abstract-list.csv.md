@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **content_product_abstract_list.csv** file to configure [Content Product Abstract List](/docs/scos/user/features/{{page.version}}/content-items-feature-overview.html#content-item) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Unique identifier of the content. |
 | **skus.default** | Yes | String |N/A | Default list of product abstract SKUs. |
 | **skus.{ANY_LOCALE_NAME}** **<br>Example value: *skus.en_US* | No | String | N/A |List of product abstract SKUs, translated into the specified locale (US for our example). | 
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -36,4 +36,4 @@ A template and an example of the *content_product_abstract_list.csv*  file can b
 | File | Description |
 | --- | --- |
 | [content_product_abstract_list.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+content_product_abstract_list.csv) | Content Product Abstract List .csv template file (empty content, contains headers only). |
-| [content_product_abstract_list.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/content_product_abstract_list.csv) | Content Product Abstract List .csv file containing a Demo Shop data sample. |
+| [content_product_abstract_list.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/content_product_abstract_list.csv) | Content Product Abstract List CSV file containing a Demo Shop data sample. |

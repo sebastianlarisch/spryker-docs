@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_page.csv** file to configure [CMS Page](/docs/scos/user/features/{{page.version}}/cms-feature-overview/cms-pages-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ These are the header fields to be included in the .csv file:
 | **placeholder.title.{ANY_LOCALE_NAME}**<br>Example value: *placeholder.title.en_US* | No | String |N/A | Page placeholder to the title, translated into the specified locale (US for our example). |
 | **placeholder.content.{ANY_LOCALE_NAME}**<br>Example value: *placeholder.content.en_US* | No | String |N/A | Page placeholder to the content, translated into the specified locale (US for our example). |
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -42,4 +42,4 @@ A template and an example of the *cms_page.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [cms_page.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+cms_page.csv) | CMS Page .csv template file (empty content, contains headers only). |
-| [cms_page.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_page.csv) | CMS Page .csv file containing a Demo Shop data sample. |
+| [cms_page.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_page.csv) | CMS Page CSV file containing a Demo Shop data sample. |

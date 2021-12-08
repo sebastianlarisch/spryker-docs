@@ -13,7 +13,7 @@ This article contains content of the **product_image.csv** file to configure [Pr
 
 ## Headers & Mandatory Fields
 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -41,4 +41,4 @@ A template and an example of the *product_image.csv*  file can be downloaded her
 | File | Description |
 | --- | --- |
 | [product_image.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/Template+product_image.csv) | Payment Method Store .csv template file (empty content, contains headers only). |
-| [product_image.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_image.csv) | Payment Method Store .csv file containing a Demo Shop data sample. |
+| [product_image.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_image.csv) | Payment Method Store CSV file containing a Demo Shop data sample. |

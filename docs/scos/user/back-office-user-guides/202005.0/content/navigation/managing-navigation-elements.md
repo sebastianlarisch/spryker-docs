@@ -96,7 +96,7 @@ To edit, activate, or deactivate a navigation element:
 1. In the *List of navigation elements*, click **Edit** next to the navigation element you want to edit.
 2. On the *Edit Navigation Element: {element number}* page:
     1. Edit the **Name**.
-    2. Select or clear the **Active** check box to activate or deactivate the navigation element.
+    2. Select or clear the **Active** checkbox to activate or deactivate the navigation element.
 3. Click **Save**. 
 This takes you to the *Overview of Navigation Elements* page.  You can see the message about successful navigation element update. The changes are reflected in the *List of navigation elements*.
 

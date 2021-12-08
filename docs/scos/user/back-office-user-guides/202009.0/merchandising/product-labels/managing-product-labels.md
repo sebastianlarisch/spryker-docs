@@ -54,7 +54,7 @@ The page is refreshed to show the message about successful product label update.
 
 **Tips & Tricks**
 
-In the *Assigned Products* subtab of the *Products* tab, clear the check box next to a product to deassign it from the label.
+In the *Assigned Products* subtab of the *Products* tab, clear the checkbox next to a product to deassign it from the label.
 
 
 ## Next steps

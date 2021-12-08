@@ -81,7 +81,7 @@ The solution is:
 2. Implement `DataSetWriterInterface` to achieve the batch processing approach, prepare one by one and write them once (Take a look at `ProductAbstractWriter` in `Dataimport` as an example).
 
 ### Facade Calls 
-Sometimes you may need to run some validation or business logic for each data set, the easiest and safest way would be a Facade API call, that's totally fine, but then imagine if these APIs also call some heavy queries very deep! this has a huge side effect on your performance during importing millions of data.
+Sometimes you may need to run some validation or business logic for each dataset, the easiest and safest way would be a Facade API call, that's totally fine, but then imagine if these APIs also call some heavy queries very deep! this has a huge side effect on your performance during importing millions of data.
 
 Here you can see for each product stock, there are two facade calls, each facade call may run more than 5 queries, this means for importing 1,000,000 data, you will have 10,000,000 queries! (this will never finish!) 
 ```php

@@ -33,7 +33,7 @@ The following table describes the attributes you see, select, or enter while vie
 | **Delivery Method Key** | Fixed value of the delivery method indicated in the database. |
 | **Name** | Name for the delivery method. |
 | **Carrier** | Drop-down list of carrier companies available in the shop application. |
-| **Availability Plugin** | Drop-down list of the Availability plugins implemented in the back-end. The purpose of this plugin is to check if the delivery method is available for the customer. |
+| **Availability Plugin** | Drop-down list of the Availability plugins implemented in the backend. The purpose of this plugin is to check if the delivery method is available for the customer. |
 | **Price Plugin** | Drop-down list of the Price plugins. You can either provide a static price for your delivery method or select a configured price plugin. |
-| **Delivery Time Plugin** | Drop-down list of the Delivery time plugins implemented in the back-end. The purpose of this plugin is to calculate the estimated time for the delivery method. |
+| **Delivery Time Plugin** | Drop-down list of the Delivery time plugins implemented in the backend. The purpose of this plugin is to calculate the estimated time for the delivery method. |
 | **Is active** | Checkbox that allows enabling or disabling the delivery method. |

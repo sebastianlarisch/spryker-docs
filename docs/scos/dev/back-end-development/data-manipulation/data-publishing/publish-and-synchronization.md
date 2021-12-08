@@ -24,7 +24,7 @@ redirect_from:
   - /v1/docs/en/publish-and-synchronization
 ---
 
-To access data rapidly, a client (Shop App) uses a key-value storage, *Redis*, and a search engine, *Elasticsearch*, as data sources. The client does not have direct access to the [SQL database](/docs/scos/dev/back-end-development/zed/persistence-layer/persistence-layer.html) used by the back end. To keep the client data sources always up to date, all the changes made on the back end should be propagated to the front-end data sources. To do this, Spryker implements a two-step process, called Publish and Synchronize:
+To access data rapidly, a client (Shop App) uses a key-value storage, *Redis*, and a search engine, *Elasticsearch*, as data sources. The client does not have direct access to the [SQL database](/docs/scos/dev/back-end-development/zed/persistence-layer/persistence-layer.html) used by the backend. To keep the client data sources always up to date, all the changes made on the backend should be propagated to the front-end data sources. To do this, Spryker implements a two-step process, called Publish and Synchronize:
 
 1.  Publish:
 

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **currency.csv** file to configure [Currency](/docs/scos/user/features/{{page.version}}/prices-feature-overview/prices-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 |  | Field Name | Mandatory | Type | Other Requirements/Comments | Description | 
 | --- | --- | --- | --- | --- | --- |
@@ -36,5 +36,5 @@ A template and an example of the *currency.csv* file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [currency.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+currency.csv) | Currency .csv template file (empty content, contains headers only). |
-| [currency.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/currency.csv) | Currency .csv file containing a Demo Shop data sample. |
+| [currency.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/currency.csv) | Currency CSV file containing a Demo Shop data sample. |
 

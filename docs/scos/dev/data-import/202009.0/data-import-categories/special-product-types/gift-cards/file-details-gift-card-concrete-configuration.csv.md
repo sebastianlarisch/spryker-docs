@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **gift_card_concrete_configuration.csv** file to configure [Gift Card](/docs/scos/user/features/{{page.version}}/gift-cards-feature-overview.html) Concrete Configuration information on your Spryker Demo Shop. A **Gift Card Product** is a regular product in the shop which represents a Gift Card that Customer can buy. In this file, you can configure the amount of money that will be loaded in the Gift Card.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -31,4 +31,4 @@ A template and an example of the *gift_card_concrete_configuration.csv*  file ca
 | File | Description |
 | --- | --- |
 | [gift_card_concrete_configuration.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Gift+Cards/Template+gift_card_concrete_configuration.csv) | Gift Card Concrete Configuration .csv template file (empty content, contains headers only). |
-| [gift_card_concrete_configuration.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Gift+Cards/gift_card_concrete_configuration.csv) | Gift Card Concrete Configuration .csv file containing a Demo Shop data sample. |
+| [gift_card_concrete_configuration.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Gift+Cards/gift_card_concrete_configuration.csv) | Gift Card Concrete Configuration CSV file containing a Demo Shop data sample. |

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_block.csv** file to configure [CMS Block](/docs/scos/user/features/{{page.version}}/cms-feature-overview/cms-blocks-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ These are the header fields to be included in the .csv file:
 | **placeholder.link.{ANY_LOCALE_NAME}**<br>Example value: *placeholder.link.en_US* | No | String | N/A | Placeholder for block link, translated into the specified locale (US for our example). |
 | **placeholder.content.{ANY_LOCALE_NAME}**<br>Example value: *placeholder.content.en_US* | No | String | N/A | Placeholder for block content, translated into the specified locale (US for our example). |
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -38,4 +38,4 @@ A template and an example of the *cms_block.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [cms_block.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+cms_block.csv) | CMS Block .csv template file (empty content, contains headers only). |
-| [cms_block.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block.csv) | CMS Block .csv file containing a Demo Shop data sample. |
+| [cms_block.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block.csv) | CMS Block CSV file containing a Demo Shop data sample. |

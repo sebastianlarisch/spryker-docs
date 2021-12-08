@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_stock.csv** file to configure [Product Stock](/docs/scos/user/features/{{page.version}}/inventory-management-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -41,4 +41,4 @@ A template and an example of the *product_stock.csv*  file can be downloaded her
 | File | Description |
 | --- | --- |
 | [product_stock.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Stocks/Template+product_stock.csv) | Payment Method Store .csv template file (empty content, contains headers only). |
-| [product_stock.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Stocks/product_stock.csv) | Payment Method Store .csv file containing a Demo Shop data sample. |
+| [product_stock.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Stocks/product_stock.csv) | Payment Method Store CSV file containing a Demo Shop data sample. |

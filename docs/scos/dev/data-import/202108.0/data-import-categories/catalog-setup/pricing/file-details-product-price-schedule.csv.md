@@ -14,7 +14,7 @@ redirect_from:
 This article contains content of the **product_price_schedule.csv** file to configure[ Product Price Schedule](/docs/scos/user/features/{{page.version}}/scheduled-prices-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -42,4 +42,4 @@ A template and an example of the *product_price_schedule.csv*  file can be downl
 | File | Description |
 | --- | --- |
 | [product_price_schedule.csvtemplate](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Pricing/Template+product_price_schedule.csv) | Product Price Schedule .csv template file (empty content, contains headers only). |
-| [product_price_schedule.csv.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Pricing/product_price_schedule.csv) | Product Price Schedule .csv file containing a Demo Shop data sample. |
+| [product_price_schedule.csv.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Pricing/product_price_schedule.csv) | Product Price Schedule CSV file containing a Demo Shop data sample. |

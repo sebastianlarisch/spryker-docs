@@ -38,7 +38,7 @@ Small images will be used when subcategories on the parent category page are dis
 {% endinfo_block %}
 
 {% info_block infoBox %}
-Even though you can add several image sets and several images to an image set, out of the box, there is no place in the back end and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
+Even though you can add several image sets and several images to an image set, out of the box, there is no place in the backend and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
 {% endinfo_block %}
 *     When adding several image sets, the image set going first or having the name 'default' will be applied to the category. 
 *     When adding several images to the image set that is active for the category, the image with the lowest Sort Order field value is applied to the category. If there are several images with the same value, the image which has been added first is applied. The lowest possible value is "0".
@@ -51,7 +51,7 @@ Even though you can add several image sets and several images to an image set, o
 Keep in mind that small images will be used when subcategories on the parent category page are displayed as a list, while the large images will be used when subcategories are displayed as a grid.
 {% endinfo_block %}
     3. If you want to assign several images or image sets, click **Add image** or **Add image set** respectively, and enter URLs. 
-    Even though you can add several image sets and several images to an image set, out of the box, there is no place in the back end and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
+    Even though you can add several image sets and several images to an image set, out of the box, there is no place in the backend and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
         * When adding several image sets, the image set going first or having the name 'default' will be applied to the category. 
         * When adding several images to the image set that is active for the category, the image with the lowest Sort Order field value is applied to the category. If there are several images with the same value, the image which has been added first is applied. The lowest possible value is "0".
 4. Click **Save**. 

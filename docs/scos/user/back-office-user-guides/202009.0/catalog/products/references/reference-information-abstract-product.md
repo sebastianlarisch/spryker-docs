@@ -56,7 +56,7 @@ When you create a product bundle, a single product variant is created automatica
 |Image Set Name|The name of your image set.|✓|✓|
 |Small|The link of the image that is going to be used in the product catalogs.|✓|✓|
 |Large|The link to the image that is going to be used on the product details page.|✓|✓|
-|Sort Order|If you add several images to an active image set, specify the order in which they are to be shown in the front end and back end using Sort Order fields. The order of images is defined by the order of entered numbers where the image set with sort order "0" is the first to be shown.|✓|✓|
+|Sort Order|If you add several images to an active image set, specify the order in which they are to be shown in the front end and backend using Sort Order fields. The order of images is defined by the order of entered numbers where the image set with sort order "0" is the first to be shown.|✓|✓|
 
 
 ## Scheduled Prices tab

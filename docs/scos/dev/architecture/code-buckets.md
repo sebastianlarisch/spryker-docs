@@ -19,7 +19,7 @@ redirect_from:
 
 For example, a project can have multiple checkout processes, each having a different number of steps. The regular checkout consists of three steps, but in one of the countries, because of some business reasons, the checkout requires four steps.
 
-The example above is the most typical case to use code buckets. However, you can use them for other types of business reasons, even for the back-end A/B testing.
+The example above is the most typical case to use code buckets. However, you can use them for other types of business reasons, even for the backend A/B testing.
 
 Since the number of code buckets in a project is unlimited, you can use them for multiple purposes.
 
@@ -162,7 +162,7 @@ To learn more about configuration management, see [Configuration management](/do
 
 ## Code buckets and stores
 
-Before we introduced the Code Bucket concept, the Store concept had fulfilled multiple purposes in multi-store environments. One of the purposes was to provide the code base for multiple business logics. We invented code buckets to decouple this responsibility from stores. Another reason for introducing code buckets is that multiple stores often need to use the same business logic. With code buckets, stores and business logic implementations are not bound, and the three of them can be used in any combination.
+Before we introduced the Code Bucket concept, the Store concept had fulfilled multiple purposes in multi-store environments. One of the purposes was to provide the codebase for multiple business logics. We invented code buckets to decouple this responsibility from stores. Another reason for introducing code buckets is that multiple stores often need to use the same business logic. With code buckets, stores and business logic implementations are not bound, and the three of them can be used in any combination.
 
 From a project’s perspective, the implementation of the two solutions is very similar. In both cases, modules are suffixed to separate the code of different business logics. In case of a store, the suffix is the name of the store that derives from the `APPLICATION_STORE` environment variable. In case of a code bucket, the suffix is the name of the code bucket that derives from the `SPRYKER_CODE_BUCKET` environment variable.
 

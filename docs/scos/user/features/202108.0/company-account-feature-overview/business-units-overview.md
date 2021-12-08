@@ -68,7 +68,7 @@ A business unit's children that are one level below it, become 0 level parent bu
 
 ![business-units-address.png](https://spryker.s3.eu-central-1.amazonaws.com/docs/Features/Company+Account+Management/Business+Unit+Management/Business+Units+Management+Feature+Overview/business-units-address.png)
 
-*  The addresses can also be unassigned by clearing the respective address's check box under the Assign Addresses section and clicking Submit.
+*  The addresses can also be unassigned by clearing the respective address's checkbox under the Assign Addresses section and clicking Submit.
 
 ![unassign-address.png](https://spryker.s3.eu-central-1.amazonaws.com/docs/Features/Company+Account+Management/Business+Unit+Management/Business+Units+Management+Feature+Overview/unassign-address.png)
 

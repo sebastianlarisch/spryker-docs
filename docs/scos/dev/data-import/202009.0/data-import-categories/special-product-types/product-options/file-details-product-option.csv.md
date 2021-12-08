@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_option.csv** file to configure [Product Option](/docs/scos/user/features/{{page.version}}/product-options-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ These are the header fields to be included in the .csv file:
 | **option_name.{ANY_LOCALE_NAME}**<br>Example value: *option_name.en_US* ** | No | String |N/A | Name of the option in the specified locale (US for our example).  |
 | **sku** | No (unique) | String |N/A | SKU identifier of the Product Option. |
 *N/A: Not applicable.
-**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -38,4 +38,4 @@ A template and an example of the *product_option.csv*  file can be downloaded he
 | File | Description |
 | --- | --- |
 | [product_option.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Product+Options/Template+product_option.csv) | Payment Method Store .csv template file (empty content, contains headers only). |
-| [product_option.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Product+Options/product_option.csv) | Payment Method Store .csv file containing a Demo Shop data sample. |
+| [product_option.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Special+Product+Types/Product+Options/product_option.csv) | Payment Method Store CSV file containing a Demo Shop data sample. |

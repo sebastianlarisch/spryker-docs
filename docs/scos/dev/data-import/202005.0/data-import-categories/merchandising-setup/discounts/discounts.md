@@ -10,14 +10,14 @@ redirect_from:
 ---
 
 The **Discounts** category contains all data you need to manage product discount information in the online store.
-We have structured this section according to the following .csv files that you will have to use to import the data:
+We have structured this section according to the following CSV files that you will have to use to import the data:
 
 * [discount.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/discounts/file-details-discount.csv.html): allows you to imort general information about the discounts and their attributes.
 * [discount_amount.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/discounts/file-details-discount-amount.csv.html):  allows you to imort data used to set the values of the discounts imported with *discount.csv*.
 * [discount_store.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/discounts/file-details-discount-store.csv.html): allows you to link the discounts with the stores.
 * [discount_voucher.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/discounts/file-details-discount-voucher.csv.html) allows you to import information about vouchers.
 
-The table below provides details on Product Merchandising data importers, their purpose, .csv files, dependencies, and other details. Each data importer contains links to .csv files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
+The table below provides details on Product Merchandising data importers, their purpose, CSV files, dependencies, and other details. Each data importer contains links to CSV files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
 
 | Data Importer | Purpose | Console Command| File(s) | Dependencies |
 | --- | --- | --- | --- |--- |

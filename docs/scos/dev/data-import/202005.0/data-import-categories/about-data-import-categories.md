@@ -9,8 +9,8 @@ redirect_from:
   - /v5/docs/en/about-data-import-categories
 ---
 
-Each functional entity (category) has its own set of data importers. To import data for these categories, you have to run their data importers containing the .csv files with data. 
-This section provides details on data importers' Demo Shop group categories and their correspondent .csv files. Here you will information on all the .csv file fields, dependencies, as well as examples and templates of the .csv files.
+Each functional entity (category) has its own set of data importers. To import data for these categories, you have to run their data importers containing the CSV files with data. 
+This section provides details on data importers' Demo Shop group categories and their correspondent CSV files. Here you will information on all the CSV file fields, dependencies, as well as examples and templates of the CSV files.
 For details on building your import files, choose the Demo Shop category you want to import data for, and follow the information contained therein:
 
 * [Commerce Setup](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/commerce-setup/commerce-setup.html): to set up the multistore environment, glossary, warehouses, tax levels, shipping and payment methods.

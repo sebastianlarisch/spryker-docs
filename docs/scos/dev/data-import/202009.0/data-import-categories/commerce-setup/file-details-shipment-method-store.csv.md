@@ -14,7 +14,7 @@ This article contains information about the [Shipment Method](/docs/scos/user/fe
 The *shipment_method_store.csv* file contains the links between each shipment method used by each existing store.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -33,4 +33,4 @@ A template and an example *shipment_method_store.csv* file can be downloaded her
 | File | Description |
 | --- | --- |
 | [shipment_method_store.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+shipment_method_store.csv) | Shipment Method Store .csv template file (empty content, contains headers only). |
-| [shipment_method_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment_method_store.csv) | Shipment Method Store .csv file containing a Demo Shop data sample. |
+| [shipment_method_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment_method_store.csv) | Shipment Method Store CSV file containing a Demo Shop data sample. |

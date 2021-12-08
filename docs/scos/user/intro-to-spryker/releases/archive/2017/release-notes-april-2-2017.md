@@ -118,7 +118,7 @@ Previously, it was possible to create product attribute keys with any kind of le
 
 #### Collector Batch Fix with Big Data Sets
 
-When exporting big data sets to Redis some data was getting lost. This was happening because batching worked with non-ordered data and random results were being returned. This issue is resolved.
+When exporting big datases to Redis some data was getting lost. This was happening because batching worked with non-ordered data and random results were being returned. This issue is resolved.
 
 **Affected modules**
 

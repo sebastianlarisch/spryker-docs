@@ -42,7 +42,7 @@ To improve that:
 Just update the modules with `composer update spryker/application spryker/product-management spryker/transfer`.
 
 ## Changing Password led to Infinite Loop When “Agent Assist” Feature was Deactivated
-This issue might have happened when modifying  `YvesBootstrap` in the code base and deactivating the security provider of the Agent Assist feature by commenting out or removing a line with the following code:
+This issue might have happened when modifying  `YvesBootstrap` in the codebase and deactivating the security provider of the Agent Assist feature by commenting out or removing a line with the following code:
 `$this->application->register(new AgentPageSecurityServiceProvider()); # AgentFeature`
 
 If, after that, one went to the **My Profile** page and tried to change the password, an infinite loop between `/login` and `/customer/overview` occurred, preventing further authorization process.

@@ -66,7 +66,7 @@ The corresponding XML for this transition would be:
 
 1. In the Back Office, navigate to the **Shipment** section and click **Add new Carrier Company**.
 2. Specify a name for the carrier company and the corresponding glossary key for having a localized name.
-3. To  use this carrier company in the shop, select **Enabled** in the check box.
+3. To  use this carrier company in the shop, select **Enabled** in the checkbox.
 ![Enabled checkbox](https://spryker.s3.eu-central-1.amazonaws.com/docs/Tutorials/HowTos/HowTo+Add+a+New+Shipment+Method+2.0/ui_add_carrier_cmpany.png) 
 
 Now that we have a new shipment carrier, we can add a new shipment method to it.

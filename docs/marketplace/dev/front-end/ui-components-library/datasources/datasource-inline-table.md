@@ -13,7 +13,7 @@ Check out an example usage of the Datasource Inline Table.
 Service configuration:
 
 - `type` - a datasource type.  
-- `data` - a datasource table data (usually coming from back-end).  
+- `data` - a datasource table data (usually coming from backend).  
 - `filter` - an array of filters that passes transformed for the table format data.
 
 ```html

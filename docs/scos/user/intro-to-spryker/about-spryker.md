@@ -76,7 +76,7 @@ SCOS is split into four different layers:
 #### Benefits of the layered architecture:
 
 * We confine long and resource-intensive processes to the Business and Persistence layers, which ensures **high performance**. The presentation side is separated from the rest of the OS to make sure that only lean processes are executed there. Basically, anything that can wait or can impact the purchase process is offloaded to an area that does not impact the performance.
-* Separate front- and back-end means **developers can work in parallel**, allowing for faster implementation, testing, and better optimization—all for less internal cost.
+* Separate front- and backend means **developers can work in parallel**, allowing for faster implementation, testing, and better optimization—all for less internal cost.
 * Since your commercial offering is not dependent on a single channel, you can **focus your effort on growth and improvement**, rather than on solutions, extensions, and sometimes hacks to “make things work”.
 * The separation ensures that **essential information is not tied-up with presentation**. You can easily swap-out, extend, replace this information, as well as change the ways it is presented.
 

@@ -150,7 +150,7 @@ class DataImportBusinessFactory extends SprykerDataImportBusinessFactory
 </details>
 
 ## Step 4. Adjusting writers
-Make changes to all bulk data set writers, which store data internally. Then, flush it to the database in bulk once a configured threshold is reached.
+Make changes to all bulk dataset writers, which store data internally. Then, flush it to the database in bulk once a configured threshold is reached.
 First, use `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait` inside these writers. Then, do the following:
 1. Switch the persistence state to `false` at the very beginning of the `::write()` method by calling `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait::setDataSetWriterPersistenceState(false)`.
 
@@ -183,7 +183,7 @@ class ProductAbstractBulkPdoDataSetWriter implements DataSetWriterInterface
     {
         $this->setDataSetWriterPersistenceState(false);
 
-        // storing data sets in the internal buffer
+        // storing datasets in the internal buffer
     }
 
     .....

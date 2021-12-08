@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_group.csv** file to configure [Product Group](/docs/scos/user/features/{{page.version}}/product-groups-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -32,4 +32,4 @@ A template and an example of the *product_group.csv*  file can be downloaded her
 | File | Description |
 | --- | --- |
 | [product_group.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/Template+product_group.csv) | Payment Method Store .csv template file (empty content, contains headers only). |
-| [product_group.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_group.csv) | Payment Method Store .csv file containing a Demo Shop data sample. |
+| [product_group.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_group.csv) | Payment Method Store CSV file containing a Demo Shop data sample. |

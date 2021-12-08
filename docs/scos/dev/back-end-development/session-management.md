@@ -28,7 +28,7 @@ In Spryker Commerce OS, session behavior is supported by User, Customer and Cust
 The following article provides an overview on how sessions are handled in Zed and Yves, as well as describes possible use cases for both of them.
 
 ## Zed
-In Zed (back-end), sessions are managed by the following javascript:
+In Zed (backend), sessions are managed by the following javascript:
 
 `vendor/spryker/spryker/Bundles/Gui/assets/Zed/js/modules/update-session.js`
 The script handles sessions as follows:

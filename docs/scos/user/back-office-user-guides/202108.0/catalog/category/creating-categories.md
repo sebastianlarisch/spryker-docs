@@ -48,7 +48,7 @@ To create a category, take the following steps:
 
    {% info_block infoBox %}
 
-    Even though you can add several image sets and several images to an image set, out of the box, there is no place in the back end and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
+    Even though you can add several image sets and several images to an image set, out of the box, there is no place in the backend and front end where several image sets or images can be displayed for a category. However, if you still do that, the following logic applies:
     * When adding several image sets, the image set going first or having the name "default" is applied to the category.
     * When adding several images to the image set that is active for the category, the image with the lowest Sort Order field value is applied to the category. If there are several images with the same value, the image which has been added first is applied. The lowest possible value is "0".
 
@@ -83,7 +83,7 @@ On the *Category* page, you see the following:
 | Visible in the category tree | Defines if the category is shown in the menu on the Storefront. |
 | Allow to search for this category | Defines if the category is available in search results. |
 | Translations | Contains meta details, which are meant to improve search ranking in the search engines. |
-| Translations: Name | Name that serves as an ID for the back end. The name that is displayed to the customer on the shop website and is rendered with the help of the category key. |
+| Translations: Name | Name that serves as an ID for the backend. The name that is displayed to the customer on the shop website and is rendered with the help of the category key. |
 | Translations: Meta Title | Title that describes the category.  Meta information that is not displayed on the website to the customer but is located in the HTML code of the category page. |
 | Translations: Meta Description | Description of the category. Meta information that is not displayed on the website to the customer but is located in the HTML code of the category page. |
 | Translations: Meta Keywords | Keywords that are suitable for the category. |
@@ -103,7 +103,7 @@ If the CMS-related template is selected, the following additional attributes app
 | Image Set Name | Defines the name of the image set, e.g., Default. |
 | Small Image URL | URL of the small version of the image. |
 | Large Image URL | URL of the large version of the image. |
-| Sort Order | Numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the back end and front end. The order starts from "0". |
+| Sort Order | Numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the backend and front end. The order starts from "0". |
 
 #### <a name="category-page-template-types"></a>Category page template types
 

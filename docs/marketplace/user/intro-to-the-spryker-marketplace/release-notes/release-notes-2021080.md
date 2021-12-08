@@ -174,7 +174,7 @@ These are the new data importers available in our data import framework:
 ### Data export
 The new merchant order exporter allows to export information like orders, order Items, and expenses.
 
-Documentation: [Data export Merchant Orders .csv files format](/docs/marketplace/dev/data-export//{{site.version}}/data-export-merchant-orders-csv-files-format.html)
+Documentation: [Data export Merchant Orders CSV files format](/docs/marketplace/dev/data-export//{{site.version}}/data-export-merchant-orders-csv-files-format.html)
 
 ## Technical enhancements
 
@@ -193,7 +193,7 @@ Added the ability to grant access to the data of SQL database tables:
 Introduced a new component for rendering tables:
 
 * The front-end library is based on WebComponent.
-* Integrated into the back end by default.
+* Integrated into the backend by default.
 * By default, it is used for all the tables in the Merchant Portal, but it also can be used in the Back Office or Storefront.
 * Based on a provided configuration, the library can consume data from any source.
 

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **warehouse.csv** file to configure [Warehouse](/docs/scos/user/features/{{page.version}}/inventory-management-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 <div>
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
@@ -42,4 +42,4 @@ A template and an example of the *warehouse.csv* file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [warehouse.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+warehouse.csv) | Warehouse .csv template file (empty content, contains headers only). |
-| [warehouse.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/warehouse.csv) | Warehouse .csv file containing a Demo Shop data sample. |
+| [warehouse.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/warehouse.csv) | Warehouse CSV file containing a Demo Shop data sample. |

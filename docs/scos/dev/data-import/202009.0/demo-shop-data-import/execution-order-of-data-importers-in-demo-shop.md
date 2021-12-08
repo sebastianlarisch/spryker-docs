@@ -9,7 +9,7 @@ redirect_from:
   - /v6/docs/en/execution-order-of-data-importers-in-demo-shop
 ---
 
-When setting up a Spryker’s Demo Shop, data content sample is imported while executing a sequence of data importers. The data importer is a PHP class which handles the data import. Each data importer uses a .csv file to load data that will then be imported into the Demo Dhop database(s). The importing order of the .csv files is dependent on the order the data importers are executed. 
+When setting up a Spryker’s Demo Shop, data content sample is imported while executing a sequence of data importers. The data importer is a PHP class which handles the data import. Each data importer uses a CSV file to load data that will then be imported into the Demo Dhop database(s). The importing order of the CSV files is dependent on the order the data importers are executed. 
 
 {% info_block infoBox "Info" %}
 

@@ -91,7 +91,7 @@ The following tables describe the attributes from the *Edit category* page.
 | Visible in the category tree | Defines if the category is shown in the menu on the Storefront. |
 | Allow to search for this category | Defines if the category is available in search results. |
 | Translations | Contains meta details, which are meant to improve search ranking in the search engines. |
-| Translations: Name | Name that serves as an ID for the back end. The name that is displayed to the customer on the shop website and is rendered with the help of the category key. |
+| Translations: Name | Name that serves as an ID for the backend. The name that is displayed to the customer on the shop website and is rendered with the help of the category key. |
 | Translations: Meta Title | Title that describes the category.  Meta information that is not displayed on the website to the customer but is located in the HTML code of the category page. |
 | Translations: Meta Description | Description of the category. Meta information that is not displayed on the website to the customer but is located in the HTML code of the category page. |
 | Translations: Meta Keywords | Keywords that are suitable for the category. |
@@ -111,7 +111,7 @@ If the CMS-related template is selected, the following additional attributes app
 | Image Set Name | Defines the name of the image set, e.g., Default. |
 | Small Image URL | URL of the small version of the image. |
 | Large Image URL | URL of the large version of the image. |
-| Sort Order | Numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the back end and front end. The order starts from "0". |
+| Sort Order | Numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the backend and front end. The order starts from "0". |
 
 #### Category page template types
 When you create or update categories, you select a template according to which your category (and products assigned to it ) is going to be displayed in your online store.

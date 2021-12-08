@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **payment_method.csv** file to configure [Payment Method](/docs/scos/user/features/{{page.version}}/payments-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 <div>
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
@@ -35,4 +35,4 @@ A template and an example of the *payment_method.csv* file can be downloaded her
 | File | Description |
 | --- | --- |
 | [payment_method.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+payment_method.csv) | Payment Method .csv template file (empty content, contains headers only). |
-| [payment_method.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/payment_method.csv) | Payment Method .csv file containing a Demo Shop data sample. |
+| [payment_method.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/payment_method.csv) | Payment Method CSV file containing a Demo Shop data sample. |

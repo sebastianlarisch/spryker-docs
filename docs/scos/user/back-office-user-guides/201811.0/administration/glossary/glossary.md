@@ -23,7 +23,7 @@ A glossary consists of
 * a glossary key (which is used in the templates contained in the shop application)
 * a glossary value for each locale defined in the online store
 
-You can manage the translations, however, when creating or updating a glossary key, the changes are persisted in the back-end database. The changes are available in the online store after the client data storage is updated (either by manually running the update storage command or after the cronjob that does this update was executed. That is why interaction with the Development Team is needed.
+You can manage the translations, however, when creating or updating a glossary key, the changes are persisted in the backend database. The changes are available in the online store after the client data storage is updated (either by manually running the update storage command or after the cronjob that does this update was executed. That is why interaction with the Development Team is needed.
 ***
 **What's next?**
 To know how the translations are managed, see the [Managing Glossary](/docs/scos/user/back-office-user-guides/{{page.version}}/administration/glossary/managing-glossary.html) article.

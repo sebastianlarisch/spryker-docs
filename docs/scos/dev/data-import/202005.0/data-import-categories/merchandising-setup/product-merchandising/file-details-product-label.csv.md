@@ -13,7 +13,7 @@ This article contains content of the **product_label.csv** file to configure [Pr
 
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ These are the header fields to be included in the .csv file:
 | **name.{ANY_LOCALE_NAME}** **<br>Example value: *name.en_US* | No | String |N/A | Name of the label, in the available locale (US for our example). |
 | **product_abstract_skus** | No | String |N/A* | List of comma-separated product abstract SKUs.  |
 *N/A: Not applicable.
-**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -40,4 +40,4 @@ A template and an example of the *product_label.csv*  file can be downloaded her
 | File | Description |
 | --- | --- |
 | [product_label.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/Template+product_label.csv) | Product Label .csv template file (empty content, contains headers only). |
-| [product_label.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_label.csv) | Product Label .csv file containing a Demo Shop data sample. |
+| [product_label.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_label.csv) | Product Label CSV file containing a Demo Shop data sample. |

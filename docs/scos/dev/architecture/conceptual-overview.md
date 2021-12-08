@@ -62,19 +62,19 @@ See [Programming Concepts](/docs/scos/dev/architecture/programming-concepts.html
 
 ## Application Separation
 
-Spryker architecture is designed with two main application layers that are separated from each other: front-end and back-end. This architecture allows to connect any Storefront application with the Backoffice application easily.
+Spryker architecture is designed with two main application layers that are separated from each other: front-end and backend. This architecture allows to connect any Storefront application with the Backoffice application easily.
 
 Along with the default front-end app that is provided out of the box, you can have any other front-end app you need for your business: a native app, Alexa Skill, an e-commerce bot, a dash button, or an IoT device.
 
 The application separation brings 3 main benefits:
 
-1. **Performance**: a front-end applications in Spryker uses a data storage separated from the back-end one. It uses a blazing fast key-value storage while the back-end uses a relational database. With this separation, it is way faster than using the traditional way of sharing one relational database for both applications.
-2. **Scalability**: as front-ends in Spryker have their own applications, storages, and deployments, scalability becomes easily achievable and given by the architecture. Spryker can be easily scaled out horizontally by simply just adding more instances with more storages without affecting the back-end application and logic.
-3. **Security**: having two applications, accessing the back-end relational database becomes a harder challenge for cyber attacks. The back-end application also is usually hidden behind a firewall making the Commerce OS even more secured for different e-commerce applications.
+1. **Performance**: a front-end applications in Spryker uses a data storage separated from the backend one. It uses a blazing fast key-value storage while the backend uses a relational database. With this separation, it is way faster than using the traditional way of sharing one relational database for both applications.
+2. **Scalability**: as front-ends in Spryker have their own applications, storages, and deployments, scalability becomes easily achievable and given by the architecture. Spryker can be easily scaled out horizontally by simply just adding more instances with more storages without affecting the backend application and logic.
+3. **Security**: having two applications, accessing the backend relational database becomes a harder challenge for cyber attacks. The backend application also is usually hidden behind a firewall making the Commerce OS even more secured for different e-commerce applications.
 
 ## Data Separation
 
-Following the separation between front-end and back-end, one of the main concepts in Spryker is the separation of data between the front-end and back-end. As in any e-commerce shop system, there are always tons of data to persist and usually with relations between different data entities, e.g., orders with products and customers. For managing such data relations, a relational database is needed. The back-end manages your shop’s data and its relations; thus it comes with a relational database.
+Following the separation between front-end and backend, one of the main concepts in Spryker is the separation of data between the front-end and backend. As in any e-commerce shop system, there are always tons of data to persist and usually with relations between different data entities, e.g., orders with products and customers. For managing such data relations, a relational database is needed. The backend manages your shop’s data and its relations; thus it comes with a relational database.
 
 ### Storage
 
@@ -88,7 +88,7 @@ Redis is the default data storage in Spryker, but it can be easily replaced by o
 
 Search is an essential part of e-commerce shops. Spryker provides the most common in-shop search functionalities by utilizing and connecting to search engine technologies.
 
-Search in Spryker follows the same data separation principle. All the relational data is stored in the relational database in the back-end application and published to the Search database when additions, updates, or deletions occur on different data objects. Spryker OS ensures that data is always synced between its back-end and front-end.
+Search in Spryker follows the same data separation principle. All the relational data is stored in the relational database in the backend application and published to the Search database when additions, updates, or deletions occur on different data objects. Spryker OS ensures that data is always synced between its backend and front-end.
 
 Spryker uses Elasticsearch by default, but it's also possible replace it with other search engine technologies.
 
@@ -98,7 +98,7 @@ With data separation comes the question: how to sync data between both applicati
 
 The idea behind this concept is that the necessary data (stored in the relational database) is being watched for changes (create, update, delete). When a change occurs, the relevant data gets published to the relevant place (Search and/or Storage). It is an eventually consistent method of providing data for the front-end.
 
-For more details on how Publish & Sync works, see [Publish and Synchronization ](/docs/scos/dev/back-end-development/data-manipulation/data-publishing/publish-and-synchronization.html).
+For more details on how Publish & Sync works, see [Publish and Synchronization ](/docs/scos/dev/backend-development/data-manipulation/data-publishing/publish-and-synchronization.html).
 
 ## Where to go from here?
 

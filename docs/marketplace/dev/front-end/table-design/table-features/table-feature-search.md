@@ -8,7 +8,7 @@ This document explains the Table Feature Search component in the Components Libr
 
 ## Overview
 
-Table Feature Search is a feature of the Table Component that allows searching within the data set.
+Table Feature Search is a feature of the Table Component that allows searching within the dataset.
 
 Check out an example usage of the Table Feature Search in the `@spryker/table` config.
 

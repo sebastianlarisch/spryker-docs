@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_set.csv** file to configure [Product Set](/docs/scos/user/features/{{page.version}}/product-sets-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ These are the header fields to be included in the .csv file:
 | **image_small.1.2** | No | String |N/A |	Small image of the second product of the product set.  |
 | **image_large.1.2** | No | String |N/A | Large image of the second product of the product set. |
 *N/A: Not applicable.
-**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -44,4 +44,4 @@ A template and an example of the *product_set.csv*  file can be downloaded here:
 | File | Description |
 | --- | --- |
 | [product_set.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/Template+product_set.csv) | Product Set .csv template file (empty content, contains headers only). |
-| [product_set.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_set.csv) | Product Set .csv file containing a Demo Shop data sample. |
+| [product_set.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_set.csv) | Product Set CSV file containing a Demo Shop data sample. |

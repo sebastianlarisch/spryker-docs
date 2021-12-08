@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_abstract.csv** file to configure [Abstract Product](/docs/scos/user/features/{{page.version}}/product-feature-overview/product-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -37,7 +37,7 @@ These are the header fields to be included in the .csv file:
 | **new_from** | No | Date |N/A | To be considered a new product from this presented date. |
 | **new_to** | No | String |N/A | To be considered a new product until this presented date. |
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 ** NUMBER: Any number of  the attribute-value column pair can be added
 
 ## Dependencies
@@ -62,4 +62,4 @@ A template and an example of the *product_abstract.csv*  file can be downloaded 
 | File | Description |
 | --- | --- |
 | [product_abstract.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/Template+product_abstract.csv) | Product Abstract .csv template file (empty content, contains headers only). |
-| [product_abstract.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_abstract.csv) | Product Abstract .csv file containing a Demo Shop data sample. |
+| [product_abstract.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_abstract.csv) | Product Abstract CSV file containing a Demo Shop data sample. |

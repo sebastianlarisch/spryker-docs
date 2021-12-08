@@ -51,7 +51,7 @@ Manually add values to table in order to have relations between abstract product
 ### Collector module (Zed)
 Update the query that aggregates the product data and aggregation/processing logic.
 
-Add `product_country` to the data set that goes to Redis.
+Add `product_country` to the dataset that goes to Redis.
 
 Run the collectors to bring data to Redis.
 

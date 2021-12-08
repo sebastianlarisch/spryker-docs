@@ -32,7 +32,7 @@ This tutorial is also available on the Spryker Training web-site. For more infor
 
 The main idea of this task is to understand the Spryker architecture and how things work all together.
 
-We will implement a very simple functionality in the back-end application to reverse a string. Then we will let the front-end application connect to the back-end one in order to use this functionality and show the result on a webpage in the shop.
+We will implement a very simple functionality in the backend application to reverse a string. Then we will let the front-end application connect to the backend one in order to use this functionality and show the result on a webpage in the shop.
 
 ## Challenge Description
 

@@ -9,12 +9,12 @@ redirect_from:
   - /v5/docs/en/gift-cards-import
 ---
 
-The **Gift Cards** category contains all data you need to manage gift cards information in your online store. We have structured this section according to the following .csv files that you will have to use to import the data:
+The **Gift Cards** category contains all data you need to manage gift cards information in your online store. We have structured this section according to the following CSV files that you will have to use to import the data:
 
 * [gift_card_abstract_configuration.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/special-product-types/gift-cards/file-details-gift-card-abstract-configuration.csv.html): allows you to load information about the different types of gift cards.
 * [gift_card_concrete_configuration.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/special-product-types/gift-cards/file-details-gift-card-concrete-configuration.csv.html): allows you to define the amount of money for each gift card.  
 
-The table below provides details on Gift Cards data importers, their purpose, .csv files, dependencies, and other details. Each data importer contains links to .csv files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
+The table below provides details on Gift Cards data importers, their purpose, CSV files, dependencies, and other details. Each data importer contains links to CSV files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
 
 | Data Importer | Purpose | Console Command| File(s) | Dependencies |
 | --- | --- | --- | --- |--- |

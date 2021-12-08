@@ -16,7 +16,7 @@ redirect_from:
   - /docs/en/t-handling-data-publish-and-sync-scos
 ---
 
-Publish and Synchronization (P&S) allows exporting data from Spryker back end (Zed) to external endpoints. The default external endpoints are Redis and Elasticsearch. The endpoints are usually used by the front end (Yves) or API (Glue).
+Publish and Synchronization (P&S) allows exporting data from Spryker backend (Zed) to external endpoints. The default external endpoints are Redis and Elasticsearch. The endpoints are usually used by the front end (Yves) or API (Glue).
 In this step-by-step tutorial, you will learn how P&S works and how to export data using a Hello World P&S module example. The module synchronizes(syncs) the data stored in a Zed database table to Redis. When a record is changed, created or deleted in the table, the module automatically makes changes in Redis.
 
 ## 1. Module and Table
@@ -556,7 +556,7 @@ The schema file defines the table as follows:
 
 {% info_block infoBox "Incremental sync" %}
 
-An *incremental sync* is a sync that only processes the data records that have changed (created or modified) since the last time the integration ran as opposed to processing the entire data set every time.
+An *incremental sync* is a sync that only processes the data records that have changed (created or modified) since the last time the integration ran as opposed to processing the entire dataset every time.
 
 {% endinfo_block %}
 

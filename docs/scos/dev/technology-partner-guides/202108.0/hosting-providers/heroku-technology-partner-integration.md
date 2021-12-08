@@ -31,7 +31,7 @@ In order to work closely with Heroku, make sure to [install heroku console](http
 
 ## Applications
 
-In our example, Redis and Elasticsearch add-ons are attached to Yves (front-end application), while the database add-on is attached to Zed (back-end application).<br>
+In our example, Redis and Elasticsearch add-ons are attached to Yves (front-end application), while the database add-on is attached to Zed (backend application).<br>
 Please make sure to install proper version of ES and Redis, refer to [installation guide](/docs/scos/dev/setup/installing-spryker-with-vagrant/b2b-or-b2c-demo-shop-installation-mac-os-or-linux-with-development-virtual-machine.html).<br>
 Install required add-ons only in one application, and copy configuration string to the other one.
 
@@ -53,7 +53,7 @@ Redis
 
 ## Zed
 
-The back-end application must connect to the SQL database, Redis and Elasticsearch data stores.
+The backend application must connect to the SQL database, Redis and Elasticsearch data stores.
 
 nginx config: `nginx_Zed.conf`
 

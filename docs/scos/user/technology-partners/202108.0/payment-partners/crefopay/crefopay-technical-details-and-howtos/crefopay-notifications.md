@@ -16,4 +16,4 @@ Merchant Notification System (MNS) is a push notification service for merchants.
 
 Notification calls will be targeted at the notification-URL that is configured for the shop. Multiple notification-URLs may be configured for a single shop. This allows merchants to inform more than one system, for example shop system and ERP system.
 
-The Notification-URL can be configured in merchant back end and must have the following format: `http://de.mysprykershop.com/crefo-pay/notification`.
+The Notification-URL can be configured in merchant backend and must have the following format: `http://de.mysprykershop.com/crefo-pay/notification`.

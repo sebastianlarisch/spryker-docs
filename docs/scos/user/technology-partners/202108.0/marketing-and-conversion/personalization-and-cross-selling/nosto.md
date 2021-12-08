@@ -26,7 +26,7 @@ implementation process. Over 2,500 brands in over 100 countries use Nosto to gro
 
 YOUR ADVANTAGES:
 
-* No complicated back-end integration or product feed needed for technical setup and deployment
+* No complicated backend integration or product feed needed for technical setup and deployment
 * Products are automatically indexed (faster go-to-market)
 * Beautifully-designed and intuitive UI
 * Ecommerce professionals can easily access and use different marketing technologies

@@ -341,7 +341,7 @@ class DataImportBusinessFactory extends SprykerDataImportBusinessFactory
 
 Pay attention to `Spryker\Zed\DataImport\Business\DataImportBusinessFactory::createQueueDataImporter()`. Instead of creating the regular data importer instance, this method will create an instance of the `Spryker\Zed\DataImport\Business\DataImporter\Queue\QueueDataImporter` class, which is responsible for handling the queue-related tasks such as message acknowledgment after successful data import. During data import, an instance of this class is preconfigured to run as part of the **QUEUE_READERS** group.
 
-Finally, make changes to all bulk data set writers, which store data internally and then flush it to the database in bulk once a configured threshold is reached. First, you should use `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait` inside these writers. Then you should:
+Finally, make changes to all bulk dataset writers, which store data internally and then flush it to the database in bulk once a configured threshold is reached. First, you should use `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait` inside these writers. Then you should:
 
 1. switch the persistence state to false at the very beginning of the ::write() method by calling `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait::setDataSetWriterPersistenceState(false)`
 2. switch the persistence state to true once the buffered data has been saved to the database by calling `Spryker\Zed\DataImport\Business\DataImporter\Queue\DataSetWriterPersistenceStateAwareTrait::setDataSetWriterPersistenceState(true)`
@@ -373,7 +373,7 @@ class ProductAbstractBulkPdoDataSetWriter implements DataSetWriterInterface
     {
         $this->setDataSetWriterPersistenceState(false);
          
-        // storing data sets in the internal buffer
+        // storing datasets in the internal buffer
     }
  
     .....

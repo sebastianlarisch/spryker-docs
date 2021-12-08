@@ -44,7 +44,7 @@ In the CmsBlockWidget module version 2.0.0, we have:
 composer require spryker-shop/cms-block-widget:"^2.0.0" --update-with-dependencies
 ```
 
-The new version of the `CmsBlockWidget` module implements the `spyCmsBlock` widget that gets data by CMS block keys.You can still use the widget that gets data by CMS block names, e.g. `{% raw %}{{{% endraw %} spyCmsBlock(name: 'Block name') {% raw %}}}{% endraw %}`. However, this will cause two separate storage requests to be created in the back end. The first gets mapped keys by CMS block names while the second uses those keys to get CMS blocks. Also, if a widget has both `key` and `name` parameters, the `key` parameter is processed first.
+The new version of the `CmsBlockWidget` module implements the `spyCmsBlock` widget that gets data by CMS block keys.You can still use the widget that gets data by CMS block names, e.g. `{% raw %}{{{% endraw %} spyCmsBlock(name: 'Block name') {% raw %}}}{% endraw %}`. However, this will cause two separate storage requests to be created in the backend. The first gets mapped keys by CMS block names while the second uses those keys to get CMS blocks. Also, if a widget has both `key` and `name` parameters, the `key` parameter is processed first.
 
 **Use the new widget:**
 

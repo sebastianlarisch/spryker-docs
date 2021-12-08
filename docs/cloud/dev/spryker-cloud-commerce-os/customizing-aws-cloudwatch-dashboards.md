@@ -38,11 +38,11 @@ To add a widget displaying CPU utilization of Jenkins to a dashboard:
 4. Select **Add widget**.
 
   
-5. In the **Add widget** dialogue box, select **Line**.  
+5. In the **Add widget** dialog box, select **Line**.  
 
 ![widget type selection](https://spryker.s3.eu-central-1.amazonaws.com/cloud-docs/Spryker+Cloud/Customizing+AWS+CloudWatch+dashboards/widget-type-selection.png)
 
-6. In the **Add to this dashboard** dialogue box, select **Metrics**.
+6. In the **Add to this dashboard** dialog box, select **Metrics**.
 
 7. Since Jenkins is running on EC2, in the **Metrics** pane, select **EC2** > **Per-Instance Metrics**.
 
@@ -52,7 +52,7 @@ To add a widget displaying CPU utilization of Jenkins to a dashboard:
 
 9. Select **Create widget**.
 
-The dialogue box closes with the new widget displayed in the dashboard.  
+The dialog box closes with the new widget displayed in the dashboard.  
 
 ![created widget](https://spryker.s3.eu-central-1.amazonaws.com/cloud-docs/Spryker+Cloud/Customizing+AWS+CloudWatch+dashboards/created-widget.png)
 
@@ -64,7 +64,7 @@ To customize an existing widget:
     
 ![widget actions in context](https://spryker.s3.eu-central-1.amazonaws.com/cloud-docs/Spryker+Cloud/Customizing+AWS+CloudWatch+dashboards/widget-actions-in-context.png)
 
-2.  In the **Edit graph** dialogue box, adjust the widget per your requirements.
+2.  In the **Edit graph** dialog box, adjust the widget per your requirements.
     
 3.  Select **Update widget**.
     

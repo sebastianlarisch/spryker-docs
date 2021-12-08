@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_page_store.csv** file to configure CMS Page Store information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -32,5 +32,5 @@ A template and an example of the *cms_page_store.csv*  file can be downloaded he
 | File | Description |
 | --- | --- |
 | [cms_page_store.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+cms_page_store.csv) | CMS Page Store .csv template file (empty content, contains headers only). |
-| [cms_page_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_page_store.csv) | CMS Page Store .csv file containing a Demo Shop data sample. |
+| [cms_page_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_page_store.csv) | CMS Page Store CSV file containing a Demo Shop data sample. |
 

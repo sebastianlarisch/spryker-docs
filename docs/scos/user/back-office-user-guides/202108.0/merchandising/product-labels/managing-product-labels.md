@@ -133,4 +133,4 @@ In the *Products* tab, you can do the following:
 * Search by SKU and Name.
 
 **Tips & tricks**
-<br>In the *Assigned Products* subtab of the *Products* tab, clear the check box next to a product to deassign it from the label.
+<br>In the *Assigned Products* subtab of the *Products* tab, clear the checkbox next to a product to deassign it from the label.

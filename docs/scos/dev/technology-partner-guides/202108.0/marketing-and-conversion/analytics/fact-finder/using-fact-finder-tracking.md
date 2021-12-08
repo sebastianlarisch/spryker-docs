@@ -97,7 +97,7 @@ By default, you can use the `/fact-finder/track` route. According to the FACT-Fi
   - `queryFromSuggest` - This parameter indicates that the FACT-Finder query was triggered through a selection from the suggestion list. In this case send the parameter with the value true.
   - `userInput` - Please use this parameter to send the order of letters the shop user entered until the search query was triggered.
 
-To use tracking on the back-end, provide the dependency to your module dependency provider.
+To use tracking on the backend, provide the dependency to your module dependency provider.
 
 **Сode sample**
 

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **discount_voucher.csv** file to configure Discount Voucher information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -46,5 +46,5 @@ A template and an example of the *discount_voucher.csv*  file can be downloaded 
 | File | Description |
 | --- | --- |
 | [discount_voucher.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/Template+discount_voucher.csv) | Discount Voucher .csv template file (empty content, contains headers only). |
-| [discount_voucher.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/discount_voucher.csv) | Discount Voucher .csv file containing a Demo Shop data sample. |
+| [discount_voucher.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Discounts/discount_voucher.csv) | Discount Voucher CSV file containing a Demo Shop data sample. |
 

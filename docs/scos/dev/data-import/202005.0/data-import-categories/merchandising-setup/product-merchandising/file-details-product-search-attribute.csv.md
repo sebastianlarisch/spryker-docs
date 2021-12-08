@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_search_attribute.csv** file to configure Product Search Attribute information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ These are the header fields to be included in the .csv file:
 | **position** | No | Number |N/A | Position of the product search attribute, Elasticsearch specific. |
 | **key.{ANY_LOCALE_NAME}** **<br>Example value: *key.en_US*  | Yes | String |N/A | Key identifier string of the product search attribute, translated in the specified locale US for our example). |
 *N/A: Not applicable.
-**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+**ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -37,4 +37,4 @@ A template and an example of the *product_search_attribute.csv*  file can be dow
 | File | Description |
 | --- | --- |
 | [product_search_attribute.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/Template+product_search_attribute.csv) | Product Search Attribute .csv template file (empty content, contains headers only). |
-| [product_search_attribute.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_search_attribute.csv) | Product Search Attribute .csv file containing a Demo Shop data sample. |
+| [product_search_attribute.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_search_attribute.csv) | Product Search Attribute CSV file containing a Demo Shop data sample. |

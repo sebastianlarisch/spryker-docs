@@ -1,5 +1,5 @@
 ---
-title: Data export Merchant Orders .csv files format
+title: Data export Merchant Orders CSV files format
 last_updated: May 27, 2021
 description: This article contains content of merchant-orders, merchant order-items, and merchant-order-expenses.
 template: import-file-template

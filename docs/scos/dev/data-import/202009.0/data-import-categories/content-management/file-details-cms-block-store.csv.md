@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **cms_block_store.csv** file to configure CMS Block Store information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -32,4 +32,4 @@ A template and an example of the *cms_block_store.csv*  file can be downloaded h
 | File | Description |
 | --- | --- |
 | [cms_block_store.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/Template+cms_block_store.csv) | CMS Block Store .csv template file (empty content, contains headers only). |
-| [cms_block_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block_store.csv) | CMS Block Store .csv file containing a Demo Shop data sample. |
+| [cms_block_store.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Content+Management/cms_block_store.csv) | CMS Block Store CSV file containing a Demo Shop data sample. |

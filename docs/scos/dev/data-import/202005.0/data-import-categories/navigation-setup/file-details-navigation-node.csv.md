@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **navigation_node.csv** file to configure [Navigation Node](/docs/scos/user/back-office-user-guides/{{page.version}}/content/navigation/references/navigation-reference-information.html#navigation-node-types) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ These are the header fields to be included in the .csv file:
 | **valid_from** | Yes | Date |N/A |  Date from which the navigation node is valid.|
 | **valid_to** | Yes | Date |N/A |  Date to which the navigation node is valid.|
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 
 ## Dependencies
 
@@ -41,4 +41,4 @@ A template and an example of the *navigation_node.csv*  file can be downloaded h
 | File | Description |
 | --- | --- |
 | [navigation_node.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/Template+navigation_node.csv) | Navigation Node .csv template file (empty content, contains headers only). |
-| [navigation_node.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/navigation_node.csv) | Navigation Node .csv file containing a Demo Shop data sample. |
+| [navigation_node.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Navigation+Setup/navigation_node.csv) | Navigation Node CSV file containing a Demo Shop data sample. |

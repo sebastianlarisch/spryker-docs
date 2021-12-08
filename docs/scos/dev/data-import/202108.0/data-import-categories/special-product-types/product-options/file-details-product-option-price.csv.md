@@ -11,7 +11,7 @@ redirect_from:
   - /docs/en/file-details-product-option-pricecsv
 ---
 
-This article contains content of the **product_option_price.csv** file to configure Product Option Price information on your Spryker Demo Shop. Importing the Product Option Price data sets the net and gross prices for each of the Product Options, per store and per currency.
+This article contains content of the **product_option_price.csv** file to configure Product Option Price information on your Spryker Demo Shop. Importing the Product Option Price datasets the net and gross prices for each of the Product Options, per store and per currency.
 
 ## Headers & Mandatory Fields 
 These are the header fields to be included in the .csv file:

@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_review.csv** file to configure [Product Review](/docs/scos/user/features/{{page.version}}/product-rating-and-reviews-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -37,4 +37,4 @@ A template and an example of the *product_review.csv*  file can be downloaded he
 | File | Description |
 | --- | --- |
 | [product_review.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/Template+product_review.csv) | Product Review .csv template file (empty content, contains headers only). |
-| [product_review.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_review.csv) | Product Review .csv file containing a Demo Shop data sample. |
+| [product_review.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Merchandising+Setup/Product+Merchandising/product_review.csv) | Product Review CSV file containing a Demo Shop data sample. |

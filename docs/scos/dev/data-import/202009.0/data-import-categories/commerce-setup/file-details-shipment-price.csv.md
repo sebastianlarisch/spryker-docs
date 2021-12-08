@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **shipment_price.csv** file to configure [Shipment Price](/docs/scos/user/features/{{page.version}}/shipment-feature-overview.html) information on your Spryker Demo Dhop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -42,4 +42,4 @@ A template and an example of the *shipment_price.csv* file can be downloaded her
 | File | Description |
 | --- | --- |
 | [shipment_price.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/Template+shipment_price.csv) | Shipment price .csv template file (empty content, contains headers only). |
-| [shipment_price.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment_price.csv) | Shipment price .csv file containing a Demo Shop data sample. |
+| [shipment_price.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Commerce+Setup/shipment_price.csv) | Shipment price CSV file containing a Demo Shop data sample. |

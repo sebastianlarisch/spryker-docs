@@ -72,7 +72,7 @@ The following table describes the attributes you use when creating or updating a
 | **Additional Parents**| A drop-down list with categories under which you can locate your specific category in addition to the Parent.  Several values can be selected.|
 |**Template**|A drop-down list with templates that you select to define the look of your category in the online store. (See _Category Page Template Types_)|
 |**Translations**| In this section you define the meta details. Their purpose is to improve search ranking in the search engines.|
-|**Translations: Name**|The name that serves as an ID for the back end.<br>The name that will be displayed to the customer on the shop website is rendered with the help of the category key.|
+|**Translations: Name**|The name that serves as an ID for the backend.<br>The name that will be displayed to the customer on the shop website is rendered with the help of the category key.|
 |**Translations: Meta Title**|The title that describes the category.|
 |**Translations: Meta Description**|The description of the category. The text you enter as meta information will not be displayed on the website to the customer but will be located in the HTML code of the category page. |
 |**Translations: Meta Keywords**|The keywords that are suitable for the category.|
@@ -91,4 +91,4 @@ If you select the CMS-related template (either Catalog+CMS Block, or CMS block),
 |  **Image Set Name**|Defines the name of the image set, e.g. Default.  |
 |**Small**  | URL of the small version of the image. |
 |  **Large**| URL of the large version of the image. |
-|**Sort Order**|A numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the back end and front end. The order starts from "0".|
+|**Sort Order**|A numeric identifier of the image in the order of other images of an image set. This defines the order in which the images are shown in the backend and front end. The order starts from "0".|

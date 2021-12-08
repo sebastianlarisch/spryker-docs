@@ -9,7 +9,7 @@ redirect_from:
   - /v5/docs/en/product-merchandising
 ---
 
-The **Product Merchandising** category contains all data you need to manage merchandising information in your online store. We have structured this section according to the following .csv files that you will have to use to import the data:
+The **Product Merchandising** category contains all data you need to manage merchandising information in your online store. We have structured this section according to the following CSV files that you will have to use to import the data:
 
 * [product_group.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/product-merchandising/file-details-product-group.csv.html): allows you to create product groups.
 * [product_label.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/product-merchandising/file-details-product-label.csv.html): allows you to create labels to assign to products. You can use the "New" or  "Special sales", etc. labels to promote the products.
@@ -22,7 +22,7 @@ The **Product Merchandising** category contains all data you need to manage merc
 * [product_alternative.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/product-merchandising/file-details-product-alternative.csv.html): allows you to define alternative products.
 * [product_quantity.csv](/docs/scos/dev/data-import/{{page.version}}/data-import-categories/merchandising-setup/product-merchandising/file-details-product-quantity.csv.html): allows you to set product quantity restrictions.
 
-The table below provides details on Product Merchandising data importers, their purpose, .csv files, dependencies, and other details. Each data importer contains links to .csv files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
+The table below provides details on Product Merchandising data importers, their purpose, CSV files, dependencies, and other details. Each data importer contains links to CSV files used to import the corresponding data, including specifications of mandatory and unique fields, dependencies, detailed explanations, recommendations, templates, and content examples.
 
 | Data Importer | Purpose | Console Command| File(s) | Dependencies |
 | --- | --- | --- | --- |--- |

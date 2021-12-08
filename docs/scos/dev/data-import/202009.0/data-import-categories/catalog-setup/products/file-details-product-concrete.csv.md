@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **product_concrete.csv** file to configure [Concrete Product](/docs/scos/user/features/{{page.version}}/product-feature-overview/product-feature-overview.html) information on your Spryker Demo Shop.
 
 ## Headers and Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ These are the header fields to be included in the .csv file:
 | **bundled** | No | String |N/A | Products SKUs separated by comas, that are part of the bundle. |
 | **is_quantity_splittable** | No | Boolean |If it is empty, will be *False*.<br>False = 0<br>True = 1 | To be considered a new product until this presented date. |
 *N/A: Not applicable.
-** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the .csv files.
+** ANY_LOCALE_NAME: Locale date is dynamic in data importers. It means that ANY_LOCALE_NAME postifx can be changed, removed, and any number of columns with different locales can be added to the CSV files.
 ** NUMBER: Any number of  the attribute-value column pair can be added
 
 ## Dependencies
@@ -49,4 +49,4 @@ A template and an example of the *product_concrete.csv*  file can be downloaded 
 | File | Description |
 | --- | --- |
 | [product_concrete.csv template](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/Template+product_concrete.csv) | Product Abstract .csv template file (empty content, contains headers only). |
-| [product_concrete.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_concrete.csv) | Product Abstract .csv file containing a Demo Shop data sample. |
+| [product_concrete.csv](https://spryker.s3.eu-central-1.amazonaws.com/docs/Developer+Guide/Back-End/Data+Manipulation/Data+Ingestion/Data+Import/Data+Import+Categories/Catalog+Setup/Products/product_concrete.csv) | Product Abstract CSV file containing a Demo Shop data sample. |

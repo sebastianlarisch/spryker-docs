@@ -55,7 +55,7 @@ Once you clicked **Revise**, the quote's status changes to In Progress. The cust
 If the Quote Request's status is *In Progress*, click **Edit**. 
 Now you can:
 a. *(Optional)* Update the RFQ details by:
-* Selecting **Show the latest version to customer** check box to allow the Buyer to see the updates you have done in the RFQ.
+* Selecting **Show the latest version to customer** checkbox to allow the Buyer to see the updates you have done in the RFQ.
 * Entering a **Purchase order number**.
 * Selecting a due date in **Do not ship later than** field.
 * Adding the **Notes**.
@@ -66,7 +66,7 @@ a. *(Optional)* Update the RFQ details by:
 If you check the **Show latest version to customer** checkbox, the customer will see the updates you did after the RFQ is sent back.
 {% endinfo_block %}
 
-b. *(Optional)* Change the prices for products in the RFQ and offer your customers a special price. To do that, untick **Use Default Prices** check box next to the product the price of which you want to update.
+b. *(Optional)* Change the prices for products in the RFQ and offer your customers a special price. To do that, untick **Use Default Prices** checkbox next to the product the price of which you want to update.
 ![Change a price for RFQ agent](https://spryker.s3.eu-central-1.amazonaws.com/docs/User+Guides/Shop+User+Guides/RFQ/Shop+Guide+-+Managing+Requests+for+Quotes+for+a+Sales+Representative/change-price-rfq-agent.png) 
 
 2. After the Quote Request has been revised, you can either **Save** it or **Send to Customer**.
@@ -91,7 +91,7 @@ To create an RFQ for a customer:
 4. From the drop-down list of suggestions, select the necessary customer.
 5. Click **Save**.
 6. *(Optional)* Edit the Request for Quote. Click **Edit** to:
-  - Select **Show the latest version to customer** check box to allow the Buyer to see the updates you have done in the RFQ.
+  - Select **Show the latest version to customer** checkbox to allow the Buyer to see the updates you have done in the RFQ.
   - Enter a **Purchase order number**.
   - Select a due date in **Do not ship later than** field.
   - Add the **Notes**.

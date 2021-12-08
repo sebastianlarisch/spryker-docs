@@ -12,7 +12,7 @@ redirect_from:
 This article contains content of the **category_template.csv** file to configure Category Template information on your Spryker Demo Shop.
 
 ## Headers & Mandatory Fields 
-These are the header fields to be included in the .csv file:
+These are the header fields to be included in the CSV file:
 
 | Field Name | Mandatory | Type | Other Requirements/Comments | Description |
 | --- | --- | --- | --- | --- |
@@ -30,4 +30,4 @@ A template and an example of the *category_template.csv*  file can be downloaded
 | File | Description |
 | --- | --- |
 | [category_template.csv template]() | Category Template .csv template file (empty content, contains headers only). |
-| [category_template.csv]() | Category Template .csv file containing a Demo Shop data sample. |
+| [category_template.csv]() | Category Template CSV file containing a Demo Shop data sample. |
